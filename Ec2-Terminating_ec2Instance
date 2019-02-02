@@ -1,0 +1,13 @@
+import boto3, sys
+ec2 = boto3.resource('ec2')
+
+# iterate through instance IDs and terminate them
+for id in sys.argv[1:]:
+ instance = ec2.Instance(id)
+ print(instance.terminate())
+ 
+ 
+ 
+ 
+ #Then, from a terminal, we can pass instance ID(s) as a command line argument, to terminate these EC2 instances in the AWS console, using the following command:
+ #python terminate_ec2.py i-i-02a9d7a2cad784e74
