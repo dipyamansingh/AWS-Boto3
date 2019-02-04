@@ -5,7 +5,7 @@ AWS SDK for Python, also known as the Boto-3 library, makes user management very
 
 Here we'll take a look at how Python can be used by System Administrators to automate the management of Amazon Web Services (AWS) Elastic Compute Cloud (EC2) infrastructure. You'll learn how to set up the Python scripting environment for first use, and how to enable ourself as a user to create Python scripts to launch virtual machine instances in AWS EC2 as per specific requirements. 
 
-Install AWS CLI and Python Boto3 Library :-
+# Install AWS CLI and Python Boto3 Library :-
 
 Before we can get started, we need to install Boto3 library in Python and the AWS Command Line Interface (CLI) tool using 'pip' which is a package management system written in Python used to install and manage packages that can contain code libraries and dependent files.
 
@@ -13,9 +13,9 @@ Boto3 is the AWS SDK for Python, which provides Object-based APIs and low-level 
 
 Using 'pip' run the following command to install the AWS CLI and Python's Boto3 library on your machine: 
   
-  "pip install awscli boto3"
+ # "pip install awscli boto3"
 
-Create a User and get AWS Access ID and Secret Key
+# Create a User and get AWS Access ID and Secret Key
 
 Now that we've installed the AWS CLI and Boto3, its time to create your user credentials on the AWS console, so that AWS services can be access programmatically. Follow these steps to create your user credentials:
 
