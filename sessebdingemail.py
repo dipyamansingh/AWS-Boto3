@@ -21,5 +21,5 @@ response = client.send_email(
             'Data': 'email subject string',
         },
     },
-    Source='sender.sendertest1@gmail.com',
+    Source='sender.sendertest3@gmail.com',
 )
